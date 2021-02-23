@@ -23,5 +23,5 @@
 2.5.3 Group of modifications that is redone shall be considered a single modification for the purposes of subsequent undo.
 3.0 WSUWord shall provide a mechanism to perform a sequence of modifications to the stored string.
 3.1 A sequence of operations will be considered a "script".
-3.1 A "script" will consist of one or more strings that describe modifications to be performed to the stored string.
+3.2 A "script" will consist of one or more strings that describe modifications to be performed to the stored string.
 4.0 WSUWord shall provide a mechanism to output the stored string in a human readable format.
