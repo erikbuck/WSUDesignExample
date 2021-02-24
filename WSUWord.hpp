@@ -10,6 +10,8 @@
 
 #include <string>
 
+namespace WSUWord {
+
 ///
 /// \defgroup Model Model Subsystem
 /// @{
@@ -18,10 +20,12 @@
 /// Ref: Req. 1.0
 class WSUWordModel {
    /// Ref: Req. 1.0
-   String m_string;
+   std::string m_string;
 };
 
 
 /**@}*/
+
+} // namespace WSUWord
 
 #endif /* WSUWord_hpp */
