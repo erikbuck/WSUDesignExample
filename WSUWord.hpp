@@ -11,33 +11,33 @@
 #include <string>
 #include <cstdint>
 
-namespace WSUWord {
+namespace WSU {
 
 ///
 /// \defgroup Model Model Subsystem
 /// @{
-///  The subsystems of the application, WSUWord, are organized according the Model-View-Controller design. This Module contains components that are part of the Model subsystem.
+///  This Module contains components that are part of the @ref Model within the overal @ref ModelViewPresenter Design.
 
-/// Ref: Req. 1.0
-class WSUWordModel {
+/// \imp \ref R1_0 This class implements the core of the Model subsystem with methods to manipuate a stored string.
+class WordModel {
 private:
-   /// Ref: Req. 1.0
-   /// Ref: Req. 1.1
+   /// \imp \ref R1_0
+   /// \imp \ref R1_1
    std::string m_string;
    
 public:
-   /// Ref: Req. 1.2
+   /// \imp \ref R1_2
    void appendCharacter(char c);
    
-   /// Ref: Req. 1.3
-   /// Ref: Req. 1.3.1 The character, c, is inserted into the stored string at index.
-   /// Ref: Req. 1.3.2 All characters already in the at index and beyond are moved to the next index to make room for c.
+   /// \imp \ref R1_3
+   /// \imp \ref R1_3_1 The character, c, is inserted into the stored string at index.
+   /// \imp \ref R1_3_2  All characters already in the at index and beyond are moved to the next index to make room for c.
    void insertCharacterAtIndex(char c, int32_t index);
 };
 
 
-/**@}*/
+///@}
 
-} // namespace WSUWord
+} // namespace WSU
 
 #endif /* WSUWord_hpp */
