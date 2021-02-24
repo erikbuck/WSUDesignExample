@@ -1,6 +1,6 @@
 # Requirements
 
-1.0 WSUWord shall store a strings of text.
+1.0 WSUWord shall store a string of text.
 1.1 The stored string of text shall be of length zero or more characters. 
 1.2 WSUWord shall provide a mechanism for users to append a single character to a stored string.
 1.3 WSUWord shall provide a mechanism for users to insert a single character into a stored string at a user specified index within the stored string.
