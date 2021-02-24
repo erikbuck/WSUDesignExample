@@ -32,7 +32,7 @@ public:
    /// Ref: Req. 1.3
    /// Ref: Req. 1.3.1 The character, c, is inserted into the stored string at index.
    /// Ref: Req. 1.3.2 All characters already in the at index and beyond are moved to the next index to make room for c.
-   void insertCharacterAtIndex(char c, int32_t index)
+   void insertCharacterAtIndex(char c, int32_t index);
 };
 
 
