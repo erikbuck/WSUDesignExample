@@ -12,6 +12,9 @@
 #include <unordered_map>
 #include <functional>
 
+namespace WSU {
+namespace Model {
+
 class Command {
 public:
    typedef std::shared_ptr<Command> ptr_t;
@@ -34,5 +37,8 @@ public:
    static void registerCommandFactoryWithName(commandFactory_t, std::string name);
    static ptr_t makeCommandWithName(std::string name);
 };
+
+} // namespace Model
+} // namespace WSU
 
 #endif /* Command_hpp */

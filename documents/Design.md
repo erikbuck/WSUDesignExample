@@ -8,7 +8,7 @@ This overaching design of WSUWord applies the [Model View Presenter](https://en.
 
 ## Model
 
-@ref Model
+@ref WSU::Model
 
 ## View
 

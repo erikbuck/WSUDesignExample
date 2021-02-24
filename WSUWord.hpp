@@ -13,10 +13,10 @@
 
 namespace WSU {
 
+/// Model Model Subsystem
 ///
-/// \defgroup Model Model Subsystem
-/// @{
-///  This Module contains components that are part of the @ref Model within the overal @ref ModelViewPresenter Design.
+/// This Module contains components that are part of the @ref Model within the overal @ref ModelViewPresenter Design.
+namespace Model {
 
 /// \imp \ref R1_0 This class implements the core of the Model subsystem with methods to manipuate a stored string.
 class WordModel {
@@ -36,8 +36,7 @@ public:
 };
 
 
-///@}
-
+} // namespace Model
 } // namespace WSU
 
 #endif /* WSUWord_hpp */
