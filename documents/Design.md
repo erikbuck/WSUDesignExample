@@ -4,7 +4,7 @@ This entire project is part of a demonstration for Wright State University (WSU)
 
 This design documents how the WSUWord project implements the WSUWord @ref Requirements.
 
-@section Project Overview
+@section Project Project Overview
 
 Software Engineering is the application of engineering processes to create software specifications, designs, implementations, tests, and sustainment. This project shows one concrete application of a process to document the design of software. The goal is to produce useful maintainable software design documentation with a minimum of extra effort beyond the effort that would be expended on designing and implementing software. In other words, the goal is to minimize any extra effort needed *document* the design that happens whether it is documented or not.
 
