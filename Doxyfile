@@ -2618,3 +2618,5 @@ GENERATE_LEGEND        = YES
 DOT_CLEANUP            = YES
 
 ALIASES += "imp=\xrefitem implementation \"Implements\" \"Requirement Traceability\""
+
+ALIASES += "dreq=\xrefitem derrived_req \"Derived Requirement\" \"Derived Requirements\""

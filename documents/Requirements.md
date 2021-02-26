@@ -47,6 +47,8 @@
 
 @anchor R3_1 3.1 A sequence of operations will be considered a "script".
 
+@anchor R3_1_1 3.1.1 Scripts shall be human readable
+
 @anchor R3_2 3.2 A "script" will consist of one or more strings that describe modifications to be performed to the stored string.
 
 @anchor R4_0 4.0 WSUWord shall provide a mechanism to output the stored string in a human readable format.
