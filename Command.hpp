@@ -24,7 +24,7 @@ public:
    typedef std::function<ptr_t ()> commandFactory_t;
 
 protected:
-   /// \anchor DR_1_0 \dreq Derived 2.0: AIn C++, all classes that have one or more virtual method are required to have a virtual destructor.
+   /// \anchor DR_1_0 \dreq Derived 2.0:  In C++, all classes that have one or more virtual method are required to have a virtual destructor.
    virtual ~Command() { /* Intentionally Empty */ }
    
    /// Commands encapsulate the information needed to run the command at a later time. This method  must be implementa in all subclases of thos class to encapsulate (that is store) needed information.
